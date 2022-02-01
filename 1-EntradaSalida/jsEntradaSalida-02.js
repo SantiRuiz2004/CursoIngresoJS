@@ -1,6 +1,5 @@
 /*
-Santiago Ruiz Diaz DIV E
-E/S ej 2
+Snatiago Ruiz Diaz DIV E
 Debemos lograr tomar un nombre con 'prompt' 
 y luego mostrarlo por 'alert' al presionar el botón  'mostrar'*/
 function mostrar()

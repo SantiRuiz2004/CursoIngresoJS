@@ -1,5 +1,6 @@
 /*
 Santiago Ruiz Diaz DIV E
+E/S ej 7
 Debemos lograr tomar Los numeros por ID ,
 transformarlos a enteros (parseInt),realizar la operación correcta y 
 mostrar el resulto por medio de "ALERT"
@@ -19,7 +20,7 @@ function sumar()
 
 	resultado = numUno + numDos
 
-	alert(resultado);
+	alert( "la suma es " + resultado);
 }
 
 function restar()
@@ -29,50 +30,51 @@ function restar()
 	var resultado;
 
     numUno = document.getElementById("txtIdNumeroUno").value;
-    numDos = document.getElementById("txtIdNumeroDos").value;
+	numDos = document.getElementById("txtIdNumeroDos").value;
 
     numUno = parseInt (numUno);
-    numDos = parseInt (numDos);
+	numDos = parseInt (numDos);
 
 	resultado = numUno - numDos
 
-	alert(resultado)
+	alert(" la resta es " +resultado)
 
 }
 
 function multiplicar()
 { 
-    var numUno;
+	var numUno;
     var numDos;
     var resultado;
 
     numUno = document.getElementById("txtIdNumeroUno").value;
-    numDos = document.getElementById("txtIdNumeroDos").value;
+	numDos = document.getElementById("txtIdNumeroDos").value;
 
     numUno = parseInt (numUno);
-    numDos = parseInt (numDos);
+	numDos = parseInt (numDos);
 
 	resultado = numUno * numDos
 
-	alert(resultado);
+	alert("la multiplicacion es " + resultado);
 
 
 }
 
 function dividir()
 {
-    var numUno;
+	var numUno;
     var numDos,
     
 
     numUno = document.getElementById("txtIdNumeroUno").value;
-    numDos = document.getElementById("txtIdNumeroDos").value;
+	numDos = document.getElementById("txtIdNumeroDos").value;
 
     numUno = parseInt (numUno);
-    numDos = parseInt (numDos);
+	numDos = parseInt (numDos);
 
-    resultado = numUno / numDos
+	resultado = numUno / numDos
 
-	alert(resultado);
+	alert("la division es " + resultado);
 
 }
+
